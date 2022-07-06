@@ -8,7 +8,6 @@ if [ -f "rpi-status.txt" ]; then
     cp rpi-status.txt /reports/$(date +%Y-%m-%d)_rpi-status.txt
     rm rpi-status.txt
 fi
-fi
 
 sleep 5
 
